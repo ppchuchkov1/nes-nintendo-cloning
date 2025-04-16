@@ -56,7 +56,9 @@ const Home = () => {
           />
 
           {showControllers ? (
-            <HowToPlay />
+            <div className="overflow-auto bg-gradient-to-br  from-blue-50 to-indigo-100 ">
+              <HowToPlay />
+            </div>
           ) : (
             <GameGrid
               games={filteredGames}

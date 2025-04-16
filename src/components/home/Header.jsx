@@ -12,7 +12,7 @@ const Header = ({
       <div className="flex items-center justify-end md:order-2 w-full md:w-auto">
         {currentUser ? (
           <div className="flex items-center space-x-4">
-            <div className="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+            <div className="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-gray-100 rounded-full">
               <button
                 className="transition duration-150 ease-in-out cursor-pointer"
                 type="button"
@@ -20,7 +20,7 @@ const Header = ({
                 aria-expanded="true"
                 aria-controls="headlessui-menu-items-117"
               >
-                <span className="font-medium text-gray-600 dark:text-gray-300">
+                <span className="font-medium text-gray-600">
                   {currentUser?.displayName?.substring(0, 2)?.toUpperCase()}
                 </span>
               </button>
@@ -36,7 +36,7 @@ const Header = ({
         ) : (
           <button
             onClick={signInWithGoogle}
-            className="px-4 py-2 border flex gap-2 border-slate-200 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:shadow transition duration-150"
+            className="px-4 py-2 border flex gap-2 border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:text-slate-900 hover:shadow transition duration-150"
           >
             <img
               className="w-6 h-6"
