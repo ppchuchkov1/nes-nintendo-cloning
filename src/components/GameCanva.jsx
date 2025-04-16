@@ -135,7 +135,7 @@ const GameCanva = () => {
 
   const startGameLoop = () => {
     const FPS = 60;
-    const FRAME_MIN_TIME = (1000 / FPS) * 1.8;
+    const FRAME_MIN_TIME = (1000 / FPS) * 1;
 
     let lastFrameTime = 0;
 
