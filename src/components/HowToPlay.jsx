@@ -63,7 +63,7 @@ const HowToPlay = () => {
   ];
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div className="px-4 py-8 max-w-4xl mx-auto">
       <div className="flex items-center justify-center mb-6">
         <GamepadIcon size={28} className="text-indigo-500 mr-3" />
         <h1 className="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-600">
