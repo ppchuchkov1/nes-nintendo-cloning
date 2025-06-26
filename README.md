@@ -1,6 +1,6 @@
 # 🎮 NES Emulator Web App
 
-A lightweight and fast NES (Nintendo Entertainment System) emulator built with **React** and styled using **Tailwind CSS**. Play your favorite retro games directly in the browser — no installation required!
+A lightweight and fast NES (Nintendo Entertainment System) emulator built with **React** and styled using **Tailwind CSS**. Play your favorite retro games directly in the browser 
 
 ## 🖥 Demo
 
